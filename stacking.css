@@ -1,0 +1,132 @@
+body {
+    position: relative;
+}
+
+.pos-abs {
+    position: absolute;
+    opacity: 0.75;
+}
+
+.no-pos {
+    position: static;
+    width: 300px;
+    margin-left: 50px;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    background-color: #69c;
+    text-align: center;
+    font-size: 2.3em;
+    color: #222222;
+    border: 2px solid #000;
+    /*opacity: 0.9;*/
+}
+
+.green {
+    background-color: #0c1;
+}
+
+.yellow {
+    background-color: #cccc11;
+}
+
+.blue {
+    background-color: #2222aa;
+}
+
+.orange {
+    background-color: #e80;
+}
+
+article {
+    margin: 20px;
+    position: relative;
+    height: 400px;
+}
+
+#positioned {
+    position: absolute;
+    background-color: #223344;
+    left: 50px;
+    top: 50px;
+}
+
+#normal {
+   height: 70px;
+   border: 1px dashed #999966;
+   background-color: #ffffcc;
+   margin: 0px 50px 0px 50px;
+   text-align: center;
+}
+
+#positioned {
+   opacity: 0.7;
+   position: absolute;
+   width: 150px;
+   height: 350px;
+   top: 10px;
+   right: 10px;
+   border: 1px dashed #990000;
+   background-color: #ffdddd;
+   text-align: center;}
+
+
+/*
+
+   .bold {
+       font-weight: bold;
+       font: 12px Arial;
+   }
+   #normdiv {
+       height: 70px;
+       border: 1px dashed #999966;
+       background-color: #ffffcc;
+       margin: 0px 50px 0px 50px;
+       text-align: center;
+   }
+   #reldiv1 {
+       opacity: 0.7;
+       height: 100px;
+       position: relative;
+       top: 30px;
+       border: 1px dashed #669966;
+       background-color: #ccffcc;
+       margin: 0px 50px 0px 50px;
+       text-align: center;
+   }
+   #reldiv2 {
+       opacity: 0.7;
+       height: 100px;
+       position: relative;
+       top: 15px;
+       left: 20px;
+       border: 1px dashed #669966;
+       background-color: #ccffcc;
+       margin: 0px 50px 0px 50px;
+       text-align: center;
+   }
+   #absdiv1 {
+       opacity: 0.7;
+       position: absolute;
+       width: 150px;
+       height: 350px;
+       top: 10px;
+       left: 10px;
+       border: 1px dashed #990000;
+       background-color: #ffdddd;
+       text-align: center;
+   }
+   #absdiv2 {
+       opacity: 0.7;
+       position: absolute;
+       width: 150px;
+       height: 350px;
+       top: 10px;
+       right: 10px;
+       border: 1px dashed #990000;
+       background-color: #ffdddd;
+       text-align: center;
+   }
+*/
